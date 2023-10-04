@@ -1,0 +1,36 @@
+#
+# this is GLOBAL gitignore
+# if you ignore any files which related sub-project, use .gitignore file that is in each sub-project.
+#
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+
+pids
+logs
+tmp
+
+# Editors
+.idea
+.iml
+.vscode
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# API keys and secrets
+.env
+
+# Dependency directory
+node_modules
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
