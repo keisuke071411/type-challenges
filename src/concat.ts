@@ -1,4 +1,4 @@
-// Tは受け取る第一引数型(number配列)、Uは受け取る第一引数型(number配列)である
+// Tは受け取る第一引数型(number配列)、Uは受け取る第二引数型(number配列)である
 // TとUを連結した配列型を返す
 type Concat<T extends number[], U extends number[]> = [...T, ...U];
 
